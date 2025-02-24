@@ -38,6 +38,7 @@ public class MovieTicketBooking {
         JPanel infoPanel = new JPanel();
         infoPanel.setLayout(new BoxLayout(infoPanel, BoxLayout.Y_AXIS));
         infoPanel.add(new JLabel("ISB Cinema"));
+        
         infoPanel.add(new JLabel("Jl. Teknologi No. 123, Surabaya, Jawa Timur, Indonesia"));
         infoPanel.add(new JLabel("+62 812-3456-7890 (Customer Service)")); 
         gbc.gridx = 0;
